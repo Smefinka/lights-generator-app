@@ -1,0 +1,6 @@
+.nav {
+    display:flex;
+}
+.nav * {
+    margin-right: 6px;
+}
