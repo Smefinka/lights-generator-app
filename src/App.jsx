@@ -1,5 +1,6 @@
 import "./App.css";
 import Counter from "./components/Counter";
+import Light from "./components/Light";
 function App() {
   return (<>
    
@@ -9,7 +10,7 @@ function App() {
     <Counter text="row" count="0" /> 
     <Counter text="columns" count="0" />
        </nav>
-    
+    <Light />
     </>);
 }
 
