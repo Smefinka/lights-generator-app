@@ -9,7 +9,6 @@ function Counter(props){
             return setValue(0);
         }
         setValue(value-1);
-        console.log('hi')
     }
     function handleIncreament(){
         setValue(value+1)
