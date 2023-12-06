@@ -2,16 +2,11 @@ import { useState } from "react";
 import lightOff from "/images/light-off.svg";
 import lightOn from "/images/light-on.svg";
 function Light(){
-    const [onLight, setOn] = useState(true);
-    const [light, setLight] = useState(lightOff)
+    const [onLight, setOn] = useState(false);
+    //const [light, setLight] = useState(lightOff)
+    const light = onLight ? lightOn : lightOff;
    function handleLightChange(){
-    if(!onLight){
-        setLight(lightOn);
-        setOn(true)
-    }else{
-        setLight(lightOff);
-        setOn(false)
-    }
+    setOn(!onLight)
    } 
     return(
         <>
