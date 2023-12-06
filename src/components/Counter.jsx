@@ -20,7 +20,9 @@ function Counter(props){
         {value} {props.text} 
         </p>
        <nav>
+        
        <IconMinus onClick={handleDecreament} /> 
+
        <IconAdd  onClick={handleIncreament}/>
        </nav>
       
